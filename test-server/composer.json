@@ -1,0 +1,12 @@
+{
+    "name": "root/app",
+    "autoload": {
+        "psr-4": {
+            "Root\\App\\": "src/"
+        }
+    },
+    "require": {
+        "phpunit/phpunit": "^9.5",
+        "php-webdriver/webdriver": "^1.11"
+    }
+}
